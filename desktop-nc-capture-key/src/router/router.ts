@@ -17,18 +17,18 @@ export class MainRouter extends LitElement {
         },
 
         {
-            path: '/videos',
-            render: () => html`<main-layout main="videos"></main-layout>`,
+            path: '/page01',
+            render: () => html`<main-layout main="page01"></main-layout>`,
         },
 
         {
-            path: '/converter',
-            render: () => html`<main-layout main="converter"></main-layout>`,
+            path: '/page02',
+            render: () => html`<main-layout main="page02"></main-layout>`,
         },
 
         {
-            path: '/finished',
-            render: () => html`<main-layout main="finished"></main-layout>`,
+            path: '/page03',
+            render: () => html`<main-layout main="page03"></main-layout>`,
         },
 
         {

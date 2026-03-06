@@ -14,8 +14,8 @@ interface VideoFile {
 }
 
 
-@customElement('section-videos-desktop')
-export class SectionVideosDesktop extends LitElement {
+@customElement('section-page1-desktop')
+export class SectionPage1Desktop extends LitElement {
 
     @state() videos: VideoFile[] = [];
 

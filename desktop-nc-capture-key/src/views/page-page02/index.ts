@@ -3,16 +3,16 @@ import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
 // PAGES
-import "./page-videos-desktop";
-import "./page-videos-mobile";
+import "./page-page02-desktop";
+import "./page-page02-mobile";
 
-@customElement('index-page-videos')
-export class IndexPageVideos extends LitElement {
+@customElement('index-page-page02')
+export class IndexPagePage02 extends LitElement {
   render() {
 
     /* Desktop */
     if (window.screen.width > 1600) {
-      return html`<page-videos-desktop></page-videos-desktop>`;
+      return html`<page-converter-desktop></page-converter-desktop>`;
     }
 
     // /* Laptop */
@@ -27,7 +27,7 @@ export class IndexPageVideos extends LitElement {
 
     /* Mobile */
     if (window.screen.width <= 500) {
-      return html`<page-videos-mobile></page-videos-mobile>`;
+      return html`<page-converter-mobile></page-converter-mobile>`;
     }
     
     return html`Error al cargar la pagina`;

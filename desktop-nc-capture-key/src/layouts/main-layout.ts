@@ -11,8 +11,8 @@ import '@/views/menus/vertical-menu/vertical-menu-desktop'
 
 // PAGES
 import '@views/page-home/index'
-import '@views/page-videos/index'
-import '@views/page-converter/index'
+import '@/views/page-page01/index'
+import '@/views/page-page02/index'
 import '@views/page-finished/index'
 import '@views/page-about/index'
 
@@ -24,12 +24,12 @@ export class MainLayout extends LitElement {
 
     renderMain() {
         switch (this.main) {
-        case 'videos':
-            return html`<index-page-videos></index-page-videos>`;
-        case 'converter':
-            return html`<index-page-converter></index-page-converter>`;
-        case 'finished':
-            return html`<index-page-finished></index-page-finished>`;
+        case 'page01':
+            return html`<index-page-page01></index-page-page01>`;
+        case 'page02':
+            return html`<index-page-page02></index-page-page02>`;
+        // case 'finished':
+        //     return html`<index-page-finished></index-page-finished>`;
         case 'about':
             return html`<index-page-about></index-page-about>`;
         case 'home':

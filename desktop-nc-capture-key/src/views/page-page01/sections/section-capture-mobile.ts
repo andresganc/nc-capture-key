@@ -2,8 +2,8 @@
 import { LitElement, css, html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
-@customElement('section-videos-mobile')
-export class SectionVideosMobile extends LitElement {
+@customElement('section-page1-mobile')
+export class SectionPage1Mobile extends LitElement {
 
     render() {
         return html`

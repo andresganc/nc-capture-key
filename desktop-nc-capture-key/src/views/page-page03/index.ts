@@ -3,16 +3,16 @@ import { LitElement, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
 // PAGES
-import "./page-finished-desktop";
-import "./page-finished-mobile";
+import "./page-page03-desktop";
+import "./page-page03-mobile";
 
-@customElement('index-page-finished')
-export class IndexPageFinished extends LitElement {
+@customElement('index-page-page03')
+export class IndexPagePage03 extends LitElement {
   render() {
 
     /* Desktop */
     if (window.screen.width > 1600) {
-      return html`<page-finished-desktop></page-finished-desktop>`;
+      return html`<page-page03-desktop></page-page03-desktop>`;
     }
 
     // /* Laptop */
@@ -27,7 +27,7 @@ export class IndexPageFinished extends LitElement {
 
     /* Mobile */
     if (window.screen.width <= 500) {
-      return html`<page-finished-mobile></page-finished-mobile>`;
+      return html`<page-page03-mobile></page-page03-mobile>`;
     }
     
     return html`Error al cargar la pagina`;

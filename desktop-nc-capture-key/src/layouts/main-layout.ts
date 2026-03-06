@@ -13,7 +13,7 @@ import '@/views/menus/vertical-menu/vertical-menu-desktop'
 import '@views/page-home/index'
 import '@/views/page-page01/index'
 import '@/views/page-page02/index'
-import '@views/page-finished/index'
+import '@/views/page-page03/index'
 import '@views/page-about/index'
 
 @customElement('main-layout')
@@ -28,8 +28,8 @@ export class MainLayout extends LitElement {
             return html`<index-page-page01></index-page-page01>`;
         case 'page02':
             return html`<index-page-page02></index-page-page02>`;
-        // case 'finished':
-        //     return html`<index-page-finished></index-page-finished>`;
+        case 'page03':
+            return html`<index-page-page03></index-page-page03>`;
         case 'about':
             return html`<index-page-about></index-page-about>`;
         case 'home':

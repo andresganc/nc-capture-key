@@ -3,8 +3,8 @@ import { LitElement, css, html } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { useVideoStore } from '@contexts/store-video-seleted';
 
-@customElement('section-converter-desktop')
-export class SectionConverterDesktop extends LitElement {
+@customElement('section-page02-desktop')
+export class SectionPage02Desktop extends LitElement {
 
     @state()
     selectedVideo = useVideoStore.getState().selectedVideo;

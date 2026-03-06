@@ -3,14 +3,14 @@ import { LitElement, css, html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
 // SECTIONS
-import './sections/section-start-desktop'
+import './sections/section-page02-desktop'
 
-@customElement('page-converter-desktop')
-export class PageConverterDesktop extends LitElement {
+@customElement('page-page02-desktop')
+export class PagePage02Desktop extends LitElement {
 
     render() {
         return html`
-            <section-converter-desktop></section-converter-desktop>
+            <section-page02-desktop></section-page02-desktop>
         `
     }
 }

@@ -1,16 +1,16 @@
 
-import { LitElement, css, html } from 'lit'
+import { LitElement, html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
 // SECTIONS
-import './sections/section-capture-desktop'
+import './sections/section-page01-desktop'
 
-@customElement('page-videos-desktop')
-export class PageVideosDesktop extends LitElement {
+@customElement('page-page01-desktop')
+export class PagePage01Desktop extends LitElement {
 
     render() {
         return html`
-            <section-videos-desktop></section-videos-desktop>
+            <section-page01-desktop></section-page-desktop>
         `
     }
 }

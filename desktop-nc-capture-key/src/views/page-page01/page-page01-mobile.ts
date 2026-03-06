@@ -1,16 +1,16 @@
 
-import { LitElement, css, html } from 'lit'
+import { LitElement, html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
 // SECTIONS
-import './sections/section-capture-mobile'
+import './sections/section-page01-mobile'
 
-@customElement('page-videos-mobile')
-export class PageVideosMobile extends LitElement {
+@customElement('page-page01-mobile')
+export class PagePage01Mobile extends LitElement {
 
     render() {
         return html`
-            <section-videos-mobile></section-videos-mobile>
+            <section-page01-mobile></section-page01-mobile>
         `
     }
 }

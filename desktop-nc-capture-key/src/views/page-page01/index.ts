@@ -12,7 +12,7 @@ export class IndexPagePage01 extends LitElement {
 
     /* Desktop */
     if (window.screen.width > 1600) {
-      return html`<page-videos-desktop></page-videos-desktop>`;
+      return html`<page-page01-desktop></page-page01-desktop>`;
     }
 
     // /* Laptop */
@@ -27,7 +27,7 @@ export class IndexPagePage01 extends LitElement {
 
     /* Mobile */
     if (window.screen.width <= 500) {
-      return html`<page-videos-mobile></page-videos-mobile>`;
+      return html`<page-page01-mobile></page-page01-mobile>`;
     }
     
     return html`Error al cargar la pagina`;

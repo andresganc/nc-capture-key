@@ -4,12 +4,12 @@ import { customElement } from 'lit/decorators.js'
 
 // SECTIONS
 
-@customElement('page-converter-mobile')
-export class PageConverterMobile extends LitElement {
+@customElement('page-page02-mobile')
+export class PagePage02Mobile extends LitElement {
 
     render() {
         return html`
-            <p>Page converter mobile</p>
+            <p>Page page02 mobile</p>
         `
     }
 }

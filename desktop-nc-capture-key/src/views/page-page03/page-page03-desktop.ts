@@ -10,7 +10,7 @@ export class PagePage03Desktop extends LitElement {
 
     render() {
         return html`
-                <p>Page page03 desktop</p>
+                <section-page03-desktop></section-page03-desktop>
         `
     }
 }

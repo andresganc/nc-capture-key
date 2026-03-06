@@ -5,12 +5,12 @@ import { customElement } from 'lit/decorators.js'
 // SECTIONS
 import './sections/section-page02-desktop'
 
-@customElement('page-page03-desktop')
-export class PagePage03Desktop extends LitElement {
+@customElement('page-page02-desktop')
+export class PagePage02Desktop extends LitElement {
 
     render() {
         return html`
-            <section-page03-desktop></section-page03-desktop>
+            <section-page02-desktop></section-page02-desktop>
         `
     }
 }

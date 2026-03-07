@@ -7,5 +7,5 @@
 
 
 fn main() {
-    println!("Hello, world!");
+    app_lib::run();
 }

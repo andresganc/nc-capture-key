@@ -27,3 +27,6 @@ tauri-plugin-log = "2"
 # ADDED POST CREATE PROJECT
 # tokio = { version = "1.49.0", features = ["full"] }
 # uuid = { version = "1.21.0", features = ["v4"] }
+serialport = "4.8.1"
+regex = "1"
+device_query = "4.0.1"

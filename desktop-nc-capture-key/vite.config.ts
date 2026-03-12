@@ -1,32 +1,30 @@
+import { defineConfig } from "vite";
 
-import { defineConfig } from 'vite';
+// @ts-expect-error process is a nodejs global
+const host = process.env.TAURI_DEV_HOST;
 
-export default defineConfig({
+// https://vite.dev/config/
+export default defineConfig(async () => ({
+
+  // Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`
+  //
+  // 1. prevent Vite from obscuring rust errors
+  clearScreen: false,
+  // 2. tauri expects a fixed port, fail if that port is not available
   server: {
-    port: 5173,
-    open: true,
-  },
-
-  build: {
-    target: 'es2022',
-    outDir: 'dist',
-    sourcemap: true,
-  },
-
-  resolve: {
-    alias: {
-      '@': '/src',
-      '@assets': '/src/assets',
-      '@components': '/src/components',
-      '@contexts': '/src/contexts',
-      '@layouts': '/src/layouts',
-      '@router': '/src/router',
-      '@views': '/src/views',
-      '@webassembly': '/src/webassembly',
+    port: 1420,
+    strictPort: true,
+    host: host || false,
+    hmr: host
+      ? {
+          protocol: "ws",
+          host,
+          port: 1421,
+        }
+      : undefined,
+    watch: {
+      // 3. tell Vite to ignore watching `src-tauri`
+      ignored: ["**/src-tauri/**"],
     },
   },
-
-  esbuild: {
-    target: 'es2022',
-  },
-});
+}));

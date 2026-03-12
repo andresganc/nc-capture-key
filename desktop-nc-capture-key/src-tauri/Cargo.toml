@@ -23,3 +23,10 @@ tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
+# ADDED POST CREATE PROJECT
+serialport = "4.8.1"
+regex = "1"
+device_query = "4.0.1"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

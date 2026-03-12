@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 
-// @ts-expect-error process is a nodejs global
 const host = process.env.TAURI_DEV_HOST;
 
 // https://vite.dev/config/
@@ -13,6 +12,7 @@ export default defineConfig(async () => ({
   // 2. tauri expects a fixed port, fail if that port is not available
   server: {
     port: 1420,
+    open: true,
     strictPort: true,
     host: host || false,
     hmr: host
@@ -27,4 +27,19 @@ export default defineConfig(async () => ({
       ignored: ["**/src-tauri/**"],
     },
   },
+
+  // Resolve
+  resolve: {
+    alias: {
+      '@': '/src',
+      '@assets': '/src/assets',
+      '@components': '/src/components',
+      '@contexts': '/src/contexts',
+      '@layouts': '/src/layouts',
+      '@router': '/src/router',
+      '@views': '/src/views',
+      '@webassembly': '/src/webassembly',
+    },
+  },
+
 }));

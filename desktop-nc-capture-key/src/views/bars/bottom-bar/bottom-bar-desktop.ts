@@ -11,9 +11,9 @@ export class BottomBarDesktop extends LitElement {
             <div class='menu'>
 
                 <div class='menu__home'>
-                    <!-- <div>
+                    <div>
                         <img class='logo' src="${logo}" alt="Logo" width="70">
-                    </div> -->
+                    </div>
                     <small>Video selected: none</small>
                 </div>
 

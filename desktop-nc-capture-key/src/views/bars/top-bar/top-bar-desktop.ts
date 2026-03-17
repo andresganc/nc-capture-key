@@ -15,7 +15,7 @@ export class TopBarDesktop extends LitElement {
                         <img class='logo' src="${logo}" alt="Logo" width="70">
                     </div> -->
                     <div>
-                        <h3>NC</h3>
+                        <h3>NC SOFT</h3>
                     </div>
                 </div>
 

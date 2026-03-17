@@ -14,7 +14,7 @@ export class BottomBarDesktop extends LitElement {
                     <div>
                         <img class='logo' src="${logo}" alt="Logo" width="30">
                     </div>
-                    <small>Video selected: none</small>
+                    <small>Port selected: none</small>
                 </div>
 
                 <!-- <hr class="l-vertical" /> -->
@@ -23,7 +23,7 @@ export class BottomBarDesktop extends LitElement {
                     <nav class='menu__nav--nav nav'>
 
                         <a class='menu__nav--nav--item item' href='/finished'>
-                            <small>Status: waiting for video</small>
+                            <small>Status: waiting for capture</small>
                         </a>
                     </nav>
                 </div>
@@ -32,7 +32,7 @@ export class BottomBarDesktop extends LitElement {
 
                 <div class='menu__footer'>
                     <a class='menu__nav--nav--item item' href='/finished'>
-                        <small>Time converter: 0s</small>
+                        <small>Time capture: 0s</small>
                     </a>
                 </div>
 
@@ -101,7 +101,7 @@ export class BottomBarDesktop extends LitElement {
                 display: flex;
                 align-items: center;
                 gap: 0.5rem;
-                
+
             }
 
             .menu__nav {

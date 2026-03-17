@@ -18,8 +18,7 @@ export class SectionHomeDesktop extends LitElement {
 
             <div class="footer">
                 <a class='menu__nav--nav--item item' href='/page01'>
-                    <svg class="icon" viewBox="0 0 24 24"><title>videos</title><path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>
-                    
+                    <svg class="icon" viewBox="0 0 24 24"><title>inbox-arrow-down</title><path d="M16,10H14V7H10V10H8L12,14M19,15H15A3,3 0 0,1 12,18A3,3 0 0,1 9,15H5V5H19M19,3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
                     <div>
                         <p>SETUP NC CAPTURE KEY</p>
                     </div>

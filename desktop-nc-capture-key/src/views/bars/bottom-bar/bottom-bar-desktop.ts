@@ -1,7 +1,7 @@
 
 import { LitElement, css, html} from 'lit'
 import { customElement } from 'lit/decorators.js'
-import logo from '@assets/img/logo/logo300px.webp'
+import logo from '@assets/img/logo/logo1000px.webp'
 
 @customElement('bottom-bar-desktop')
 export class BottomBarDesktop extends LitElement {
@@ -12,7 +12,7 @@ export class BottomBarDesktop extends LitElement {
 
                 <div class='menu__home'>
                     <div>
-                        <img class='logo' src="${logo}" alt="Logo" width="70">
+                        <img class='logo' src="${logo}" alt="Logo" width="30">
                     </div>
                     <small>Video selected: none</small>
                 </div>
@@ -99,6 +99,9 @@ export class BottomBarDesktop extends LitElement {
 
             .menu__home {
                 display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                
             }
 
             .menu__nav {

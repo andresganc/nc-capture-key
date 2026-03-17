@@ -93,25 +93,21 @@ export class SectionPage01Desktop extends LitElement {
 
         <div>
             <p>Activation key: </p>
-
-            <input
-            .value=${this.tecla}
-            @input=${(e:any)=>this.tecla=e.target.value}
-            />
+            <input .value=${this.tecla} @input=${(e:any)=>this.tecla=e.target.value} disabled/>
         </div>
 
         <div>
-            <button @click=${this.iniciar}>
-            Iniciar
+            <p>Stable weight: ${this.peso}</p>
+        </div>
+
+        <div>
+            <button class='start' @click=${this.iniciar}>
+                <p class='text-start'>START</p>
             </button>
 
-            <button @click=${this.parar}>
-            Parar
-        </button>
-        </div>
-
-        <div>
-            <p>Peso estable: ${this.peso}</p>
+            <button class='stop' @click=${this.parar}>
+                <p class='text-stop'>STOP</p>
+            </button>
         </div>
 
     `
@@ -123,6 +119,41 @@ export class SectionPage01Desktop extends LitElement {
         select,input,button{
             margin:6px;
             padding:6px;
+        }
+
+        p {
+            font-size: .9rem;
+            /* font-weight: bold; */
+        }
+
+        .start {
+            width: 8rem;
+            padding: 0.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .text-start {
+            font-size: 1.1rem;
+            /* font-weight: bold; */
+        }
+
+        .stop {
+            width: 8rem;
+            padding: 0.5rem;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .text-stop {
+            font-size: 1.1rem;
+            /* font-weight: bold; */
         }
 
     `

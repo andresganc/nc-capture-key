@@ -10,18 +10,18 @@ export class SectionHomeDesktop extends LitElement {
         return html`
             <div class="header-desk">
                 <img class='header__logo' src="${logo}" alt="Logo" width="150">
-                <h4 class="header-desk-title">Convert your videos with ease</h4>
+                <h4 class="header-desk-title">Capture your device</h4>
                 <p class="header-desk-description">
-                    Our video converter allows you to effortlessly convert your videos to various formats, ensuring compatibility across all your devices. With a user-friendly interface and lightning-fast conversion speeds, you can easily transform your media files without any hassle.
+                    Welcome to NC Capture Key, the ultimate tool for capturing data from your devices like scales. Capture the information and transfer it to the software you need.
                 </p>
             </div>
 
             <div class="footer">
-                <a class='menu__nav--nav--item item' href='/videos'>
+                <a class='menu__nav--nav--item item' href='/page01'>
                     <svg class="icon" viewBox="0 0 24 24"><title>videos</title><path d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>
                     
                     <div>
-                        <p>CHOOSE VIDEO TO CONVERT</p>
+                        <p>SETUP NC CAPTURE KEY</p>
                     </div>
                        
                     <svg class="icon" viewBox="0 0 24 24"><title>chevron-right</title><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>

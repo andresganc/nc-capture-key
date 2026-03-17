@@ -7,9 +7,13 @@
 
 - This will allow you to capture the weight and send it directly to your POS system.
 
+<br>
+
 ## TECNOLOGIES
 * Frontend: Web Components (LIT)
 * Backend: RUST (Tauri)
+
+<br>
 
 ## DESKTOP VERSION
 
@@ -32,6 +36,14 @@
 
 <img src='./data/desktop/captures/nc-capture-key-setup-02.png'>
 
+
+<br>
+
+## DOWNLOADS
+
+URL: Coming soon
+
+<br>
 
 ## DONATIONS
 

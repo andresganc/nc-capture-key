@@ -15,7 +15,7 @@ export class VerticalMenu extends LitElement {
                         <img class='logo' src="${logo}" alt="Logo" width="70">
                     </div>
                     <div>
-                        <h3>NC VIDEO CONVERTER</h3>
+                        <h3>NC CAPTURE KEY</h3>
                     </div>
                     <div>
                         <p>version: 0.1 beta</p>

@@ -8,13 +8,14 @@
 - This will allow you to capture the weight and send it directly to your POS system.
 
 ## TECNOLOGIES
-* Frontend: Wen Components (LIT)
+* Frontend: Web Components (LIT)
 * Backend: RUST (Tauri)
-* 
 
 ## DESKTOP VERSION
 
-  -
+- We are working on support for Linux, Mac, and Windows systems.
+
+- Architectures: X86 & ARM.
 
 ### Page Home
 
@@ -30,3 +31,10 @@
 <img src='./data/desktop/captures/nc-capture-key-setup-01.png'>
 
 <img src='./data/desktop/captures/nc-capture-key-setup-02.png'>
+
+
+## DONATIONS
+
+You can contribute to the project if you wish.
+
+At: 

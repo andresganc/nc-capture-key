@@ -9,8 +9,17 @@ export class SectionAboutDesktop extends LitElement {
         return html`
             <div>
                 <h4>ABOUT</h4>
-                <p>This is a video converter application built with Electron and Lit.</p>
-                <p>It allows you to convert videos to different formats using FFmpeg.</p>
+                <p>NC Capture Key is a capture the case application for Linux, Mac & Windows.</p>
+                
+                <p>License: MIT</p>
+                <br>
+                
+                <p>Developers</p>
+
+                <div>
+                    <p>Name: Andres Giraldo</p>
+                    <p>Country: Colombia</p>
+                </div>
             </div>
         `;
     }

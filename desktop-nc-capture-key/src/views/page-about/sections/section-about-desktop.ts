@@ -12,6 +12,7 @@ export class SectionAboutDesktop extends LitElement {
                 <p>NC Capture Key is a capture the case application for Linux, Mac & Windows.</p>
                 
                 <p>License: MIT</p>
+
                 <br>
                 
                 <p>Developers</p>
@@ -19,6 +20,13 @@ export class SectionAboutDesktop extends LitElement {
                 <div>
                     <p>Name: Andres Giraldo</p>
                     <p>Country: Colombia</p>
+                </div>
+
+                <br>
+
+                <div>
+                    <p>Company: Newsoft Computer</p>
+                    <p>Web: www.nc-colombia.com </p>
                 </div>
             </div>
         `;

@@ -43,6 +43,18 @@
 
 URL: Coming soon
 
+### Windows
+
+* Download: 
+
+### MAC
+
+* Download
+
+### Linux
+
+* Download
+
 <br>
 
 ## DONATIONS

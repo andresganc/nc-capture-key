@@ -41,7 +41,7 @@
 
 ## DOWNLOADS
 
-URL: Coming soon
+- Coming soon
 
 ### Windows
 
